@@ -58,6 +58,19 @@ $hotels = [
 </head>
 
 <body>
+    <form action="" method="get">
+        <label for="parking">Parcheggio</label>
+            <select name="parking" id="parking">
+                <option value="">Tutti</option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+        <label for="vote">Voto</label>
+        
+        <input type="number" name="vote" id="vote" min="1" max="5">
+
+        <button type="submit">Filtra</button>
+    </form>
 
     <table class="table">
         <thead>
